@@ -38,6 +38,14 @@ for i in range(407, 410):
     for j in range(283, 286):
         F1[i, j] = 0
 
+for i in range(262, 265):
+    for j in range(136, 139):
+        F1[i, j] = 0
+
+for i in range(262, 265):
+    for j in range(390, 393):
+        F1[i, j] = 0
+
 # Kembalikan ke ranah spasial
 J = np.fft.ifftshift(F1)
 J = np.fft.ifft2(J)
